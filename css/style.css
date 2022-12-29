@@ -1,3 +1,10 @@
+.navbar {
+    background-image: linear-gradient(-90deg, #ff6600, #A865B5);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
 
 
 .jumbotron {
@@ -6,10 +13,11 @@
 }
 
 .lead {
-    
+    text-decoration: wavy;
     margin: 0px;
     color: white;
 }
+
 
 .profilePic {
     position: relative;
