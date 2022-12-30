@@ -37,3 +37,51 @@
     margin-bottom: 30px;
 
 }
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card:hover {
+    background-color: white;
+    
+    
+}
+
+.card-MP {
+    background-image: url("../images/maks6831.github.io_My-Portfolio_.png");
+    background-size: cover;
+}
+
+.card-LW {
+    background-image: url("../images/luxurywatchscreenshot.png");
+    background-size: cover;
+}
+
+.card-SBP {
+    background-image: url("../images/simplebioscreenshot.png");
+    background-size: cover;
+}
+
+.card-JS {
+    background-image: url("../images/javascriptBI.jpg");
+    background-size: cover;
+}
+
+.card-C {
+    background-image: url("../images/calculatorBI.jpg");
+    background-size: cover;
+}
+
+.card-HCGC {
+    background-image: url("../images/htmlcssgitscreenshot.png");
+    background-size: cover;
+}
+
+.card-body {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card-body:hover {
+    opacity: 1;
+}
