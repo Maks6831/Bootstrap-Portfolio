@@ -94,6 +94,7 @@ h1 {
     opacity: 0;
     transition: opacity 0.5s ease;
     color: black;
+    min-height: 212px;
     
 
 }
