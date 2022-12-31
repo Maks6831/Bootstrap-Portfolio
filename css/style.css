@@ -42,7 +42,7 @@
 }
 
 .card:hover {
-    background-color: white;
+    
     
     
 }
@@ -78,6 +78,7 @@
 }
 
 .card-body {
+    background-color: rgba(254, 252, 252, 0.589);
     opacity: 0;
     transition: opacity 0.5s ease;
 }
