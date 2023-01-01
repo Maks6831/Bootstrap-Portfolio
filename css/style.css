@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-image: linear-gradient(to bottom right, #A865B5, #ff6600);
     color: white;
@@ -61,6 +66,7 @@ h1 {
 .card {
     margin-bottom: 20px;
     border: solid #A865B5;
+    border-width: medium;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,10 +164,11 @@ h1 {
 
 .about-contact {
     text-align: center;
+    padding: 20px;
 }
 
 h4, h5 {
-    text-align: left;
+    text-align: center;
     padding-top: 10px;
 }
 
