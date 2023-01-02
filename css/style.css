@@ -193,12 +193,14 @@ footer {
     background-color: #ff6600;
     border-color: #ff6600;
     transition: 0.5s ease;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
-.btn:hover {
+.btn:hover {  
+    /* added box shadow on hover */
     background-color: #e25f08;
     border-color: #e25f08;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* media queries */
