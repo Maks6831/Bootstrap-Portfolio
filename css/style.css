@@ -188,3 +188,32 @@ footer {
     background-color: #e25f08;
     border-color: #e25f08;
 }
+
+@media only screen and (max-width: 992px) {
+    .Pictureprof {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profilePic {
+        left: 0px;
+        margin-top: 40px;
+    }
+
+    .lead {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        color: deepskyblue;
+    }
+
+    .display-4 {
+        color: deepskyblue;
+    }
+
+    .cardf2 {
+        right: 42px;
+        bottom: 15px;
+        
+    }
+}
